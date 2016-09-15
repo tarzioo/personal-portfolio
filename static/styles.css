@@ -3,11 +3,20 @@ body {
    font-family: 'Baloo Tamma', cursive;
 }
 
-#screen {
+#fullScreen {
     background-color: gray;
     height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
 }
 
 #header {
     height: 60px;
+}
+
+#toolbar {
+    background-color: #F5F5F5;
+    height: 15px;
 }
