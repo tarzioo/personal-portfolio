@@ -2,3 +2,12 @@ body {
    font-family: 'Open Sans', sans-serif;
    font-family: 'Baloo Tamma', cursive;
 }
+
+#screen {
+    background-color: gray;
+    height: 300px;
+}
+
+#header {
+    height: 60px;
+}
