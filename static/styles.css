@@ -3,20 +3,75 @@ body {
    font-family: 'Baloo Tamma', cursive;
 }
 
-#fullScreen {
+#full-screen {
     background-color: gray;
-    height: 300px;
+    height: 320px;
     border-style: solid;
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
 }
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 285px solid rgba(220,220,220, 0.5);
+    border-left: 612px solid transparent;
+}
 
 #header {
-    height: 60px;
+    height: 10px;
 }
 
 #toolbar {
     background-color: #F5F5F5;
     height: 15px;
+    font-size: 8px;
 }
+
+.circle {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.red-circle {
+     background-color: red;
+}
+
+.yellow-circle {
+    background-color: #FFD700;
+}
+.green-circle {
+    background-color: green;
+}
+
+#keyboard {
+    height: 320px;
+    background-color: gray;
+  /*  border-style: solid;
+    border-color: black;*/
+    border-width: 10px;
+    border-radius: 10px;
+    position: relative
+}
+
+/*#keyboard {
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}*/
+
+/*#trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}*/
+
