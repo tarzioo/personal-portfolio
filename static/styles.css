@@ -83,3 +83,134 @@ body {
     margin: 0 auto;
     border-radius: 0 0 5px 5px;
 }
+.empty-row {
+    height: 10px;
+}
+#ventilation {
+    height: 10px;
+    width: 600px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#keyboard-grid {
+    height: 200px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.keys {
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.keys p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+.small-text p {
+    padding-top: 0;
+}
+
+
+.row-one {
+    height: 15px;
+    width: 41px;
+    margin: 0 3px;
+}
+
+.row-two {
+    height: 20px;
+    width: 40px;
+    margin: 0 3px;
+}
+
+.small-key {
+    height: 20px;
+    width: 51px;
+    margin: 0 3px;
+}
+
+.row-three {
+    height: 20px;
+    width: 40px;
+    margin: 0 3px;
+}
+
+.medium-key {
+    height: 20px;
+    width: 55px;
+    margin: 0 3px;
+}
+ .row-four {
+    height: 20px;
+    width: 40px;
+    margin: 0 3px;
+ }
+
+ .large-key {
+    height: 20px;
+    width: 71px;
+    margin: 0 3px;
+
+ }
+
+ .row-five {
+    height: 20px;
+    width: 40px;
+    margin: 0 3px;
+}
+
+.extra-large-key {
+    height: 20px;
+    width: 96px;
+    margin: 0 3px;
+}
+
+.row-six {
+    height: 20px;
+    width: 35px;
+    margin: 0 3px;
+}
+
+.space-bar {
+    height: 20px;
+    width: 275px;
+    margin: 0 3px;
+}
+
+.command-key {
+    height: 20px;
+    width: 50px;
+    margin: 0 3px;
+}
+
+.left-right-arrow {
+    height: 10px;
+    width: 40px;
+    margin: 0;
+}
+
+.up-down-arrow {
+    height: 20px;
+    width: 35px;
+    margin: 0;
+}
+
+.touchpad {
+    height: 60px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0 auto;
+}
