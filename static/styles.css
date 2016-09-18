@@ -5,17 +5,19 @@ body {
 
 #full-screen {
     background-color: gray;
-    height: 320px;
+    height: 340px;
+    width: 645px;
     border-style: solid;
     border-color: black;
     border-width: 10px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 #triangle-bottomright {
     width: 0;
     height: 0;
-    border-bottom: 285px solid rgba(220,220,220, 0.5);
-    border-left: 612px solid transparent;
+    border-bottom: 305px solid rgba(220,220,220, 0.5);
+    border-left: 625px solid transparent;
 }
 
 #header {
@@ -50,28 +52,34 @@ body {
 }
 
 #keyboard {
-    height: 320px;
     background-color: gray;
-  /*  border-style: solid;
-    border-color: black;*/
-    border-width: 10px;
-    border-radius: 10px;
-    position: relative
+    height: 250px;
+    width: 760px;
+    margin: -30px auto 10px auto;
+    border-radius: 5px;
+    -webkit-transform: perspective(300px) rotateX(25deg);
 }
-
 /*#keyboard {
-    border-bottom: 100px solid red;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+    border-bottom: 250px solid gray;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
     height: 0;
-    width: 100px;
+    width: 855px;
+    position: relative;
+    border-radius: 20px;
 }*/
-
-/*#trapezoid {
-    border-bottom: 100px solid red;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 0;
-    width: 100px;
-}*/
-
+#keyboard-bottom {
+    background-color: #696969;
+    height: 15px;
+    width: 920px;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+#keyboard-tab {
+    background-color: #F5F5F5;
+    height: 10px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+}
