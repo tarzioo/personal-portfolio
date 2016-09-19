@@ -4,7 +4,7 @@ body {
 }
 
 #full-screen {
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.75);
     height: 340px;
     width: 645px;
     border-style: solid;
@@ -12,6 +12,7 @@ body {
     border-width: 10px;
     border-radius: 10px;
     margin: 0 auto;
+    position: relative;
 }
 #triangle-bottomright {
     width: 0;
@@ -19,12 +20,43 @@ body {
     border-bottom: 305px solid rgba(220,220,220, 0.5);
     border-left: 625px solid transparent;
 }
+.sections {
+    vertical-align: auto;
+    display: inline-block;
+}
+#intro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+#about-me {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -341px;
+}
+
+#projects {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -682px
+}
+
+#contact {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -1023px;
+}
 
 #header {
     height: 10px;
 }
 
-#toolbar {
+.toolbar {
     background-color: #F5F5F5;
     height: 15px;
     font-size: 8px;
@@ -205,9 +237,10 @@ body {
     background-color: gray;
     border-radius: 5px;
     margin: 0 auto;
+
 }
 
-.css-typing h5{
+.css-typing p {
   font-family: "Courier";
   width: 50em;
   white-space: nowrap;
@@ -219,7 +252,7 @@ body {
 
 }
 
-.css-typing h5:nth-child(2) {
+.css-typing p:nth-child(2) {
   white-space: nowrap;
   overflow: hidden;
   opacity: 0;
@@ -231,7 +264,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.css-typing h5:nth-child(3) {
+.css-typing p:nth-child(3) {
   white-space: nowrap;
   overflow: hidden;
   opacity: 0;
@@ -260,6 +293,7 @@ span {
   color: lime; 
   font-family: "Courier";
   font-size: 20px;
+  font-weight: bold;
 }
 
 @keyframes blink{
@@ -339,6 +373,16 @@ span {
 }
 
 
+.buttonlink{
+    border-color:black;
+    text-decoration:none;
+}
+.buttonlink:hover{
+    border-color: black;
+    color:white;
+}
+
+/*********************************************************/
    
 /*h5 {
   color: lime; 
