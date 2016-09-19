@@ -209,10 +209,11 @@ body {
 
 .css-typing h5{
   font-family: "Courier";
-  font-size: 14px;
   width: 50em;
   white-space: nowrap;
   overflow: hidden;
+  color: lime; 
+  font-size: 20px;
   -webkit-animation: type 5s steps(40, end);
   animation: type 5s steps(40, end);
 
@@ -256,6 +257,13 @@ body {
 
 span {
   animation: blink 1s infinite;
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
 }
 
 @keyframes type2 {
