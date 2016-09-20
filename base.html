@@ -7,35 +7,69 @@
             <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Open+Sans" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="static/styles.css">
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <script src="jquery.js"></script>
-            <script src="typed.js"></script>
-            <script src="/static/computer.js"></script>
-        </head>
+    </head>
+            
         <body>
             <div class="container-fluid">
                 <div id="header"></div>
                 <div id="full-screen">
-                    <div class="toolbar">
+                    <div id="toolbar">
                         <div class="circle red-circle">x</div>
                         <div class="circle yellow-circle">-</div>
                         <div class="circle green-circle"><></div>
                     </div>
-                    
+                    <div id="body">
                     
                 <!-- <div id="triangle-bottomright"></div> --> 
                      
-                    <div id="intro" class="sections">
-                        <div class="css-typing">
-                            <p>taraneh: vagrant $ Hello I am Taraneh</p>
-                            <p>taraneh: vagrant $ I am from oklahoma</p>
-                            <p>taraneh: vagrant $ I am a Hackbright grad
-                            <span> | </span></p>
-                    </div>
+                        <div id="intro" class="sections">
+                            <div class="css-typing">
+                                <p>taraneh: vagrant $ Hello I am Taraneh</p>
+                                <p>taraneh: vagrant $ I am from oklahoma</p>
+                                <p>taraneh: vagrant $ I am a Hackbright grad
+                                <span> | </span></p>
+                            </div>
 
-                    </div>
-                    <div id="about-me" class="sections">Hi!!!!</div>
-                    <div id="projects" class="sections">project time</div>
-                    <div id="contact" class="sections">call me!!</div>                         
+                        </div>
+                        <div id="about-me" class="sections">
+                            <div class="row">
+                                <div class="col-xs-3" id="profile-pic">
+                                    <img src="static/img/profile-pic.png"/>
+                                </div>
+                                <div class="col-xs-9" id="about-me-speech">
+                                    <h1>Hello There!</h1>
+                                    <ul>
+
+                                        <li>I am so excited you're here! I am Taraneh but I often go by Tara for short.</li>
+
+                                        <li>I am from Oklahoma and am very proud to be half Native American from the Kiowa Tribe. There aren't a lot of Natives in tech and one of my biggest goals is to get more exposure to the natives of all tribes so a career in tech can become possible!</li>
+
+                                        <li>I was lucky to have gotten the exposure to the programming world in college. I took several beginning classes in Java, CSS/HTML, C++, C#, Visual Basic, operating systems and networking.</li>
+
+                                        <li>I had always dreamed of becoming a software engineer and time kept passing while I stayed unhappy in a job in retail for years.</li>
+
+                                        <li>Finally I decided to just teach myself! I went online and studied at Codecademy, Khan Academy and FreeCodeCamp.</li>
+
+                                        <li>I was excited again!! I reached out to fellow coders instagram to see their projects and how they were. I just wanted to be in that world. Through my Instagram searching, it wasn't long before I found out about Hackbright.</li>
+
+                                        <li>WOW! An engineering school for women! I put everything I had into getting admitted and was THRILLED when I was accepted!</li>
+
+                                        <li>I quit both of my jobs, emptied my savings, threw everything I owed into a storage unit and flew to San Francisco to learn everything I could about software engineering.</li>
+
+                                        <li>I love everything about my new life. I am constantly being challenged and I enjoy the opportunity.</li>
+
+                                        <li>Being a software engineer is pretty awesome</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="projects" class="sections">project time</div>
+                        <div id="contact" class="sections">
+                            <h1>Say Hi Or Keep in Contact</h1>
+                        </div>
+                    </div>                         
                 </div>
 
                 <div id="keyboard">
@@ -113,13 +147,13 @@
                         <div class="keys row-five"><p>< ,</p></div>
                         <div class="keys row-five"><p>> .</p></div>
                         <div class="keys row-five"><p>? /</p></div>
-                        <div class="keys row-five extra-large-key"><p>shift</p></div>
+                        <div class="keys row-five extra-large-key"><p><a id="contact-btn" href="#contact">Contact Me</a></p></div>
 
-                        <div class="keys row-six"><p><a class="buttonlink" href="#about-me">fn</a></p></div>
+                        <div class="keys row-six"><p>fn</p></div>
                         <div class="keys row-six"><p>control</p></div>
                         <div class="keys row-six"><p>option</p></div>
                         <div class="keys row-six command-key"><p>⌘</p></div>
-                        <div class="keys row-six space-bar"></div>
+                        <div class="keys row-six space-bar"><p><a id="about-me-btn" href="#about-me">About Me</a></p></div>
                         <div class="keys row-six command-key"><p>⌘</p></div>
                         <div class="keys row-six"><p>option</p></div>
                         <div class="keys row-six left-right-arrow small-text"><p>◄</p></div>
@@ -133,5 +167,8 @@
                 </div>
             </div>
         </div>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="static/computer.js"></script>
+        
     </body>
 </html>

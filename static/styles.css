@@ -12,7 +12,7 @@ body {
     border-width: 10px;
     border-radius: 10px;
     margin: 0 auto;
-    position: relative;
+
 }
 #triangle-bottomright {
     width: 0;
@@ -24,48 +24,61 @@ body {
     vertical-align: auto;
     display: inline-block;
 }
+#body {
+    height:95%;
+    width:100%;
+
+}
 #intro {
     width: 100%;
     height: 100%;
-    position: absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
 #about-me {
     height: 100%;
     width: 100%;
-    position: absolute;
-    bottom: -341px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+    color: black;
+    background: white;
 }
 
 #projects {
     height: 100%;
     width: 100%;
-    position: absolute;
-    bottom: -682px
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
 }
 
 #contact {
     height: 100%;
     width: 100%;
-    position: absolute;
-    bottom: -1023px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+    color: orange;
+    background: green;
 }
 
 #header {
     height: 10px;
 }
 
-.toolbar {
+#toolbar {
     background-color: #F5F5F5;
-    height: 15px;
+    height: 5%;
     font-size: 8px;
 }
 
 .circle {
     border-radius: 50%;
-    height: 10px;
-    width: 10px;
+    height: 70%;
+    width: 2%;
     position: relative;
     margin: 3px;
     display: inline-block;
@@ -382,51 +395,15 @@ span {
     color:white;
 }
 
-/*********************************************************/
-   
-/*h5 {
-  color: lime; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  position: fixed;
-  width: 30em;
-  animation: type 4s steps(60, end);
-  word-wrap: break-word;
+#profile-pic img {
+    border-radius: 70px;
+    
+}
+
+#profile-pic {
+    display: inline-block;
+    margin: 0 auto;
 
 }
 
-h5 :nth-child(2){
-  animation: type2 8s steps(60, end);
-}
 
-h5 {
-  color: lime;
-  text-decoration: none;
-}
-
-span{
-  animation: blink 1s infinite;
-}
-
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-::selection{
-  background: black;
-}
-
-*/
