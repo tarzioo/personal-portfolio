@@ -45,7 +45,7 @@ body {
     overflow-x: hidden;
     display: none;
     color: black;
-    background: #3498DB;
+    background: rgba(52, 152, 219, 1);
 }
 
 #projects {
@@ -58,6 +58,14 @@ body {
     color: black;
 }
 
+#project-table {
+   text-align: center;
+}
+
+.project-photo img {
+    height: 100px;
+
+}
 #contact {
     height: 100%;
     width: 100%;
