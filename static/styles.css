@@ -34,6 +34,7 @@ body {
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
+    margin-left: 10px;
 
 }
 
@@ -44,7 +45,7 @@ body {
     overflow-x: hidden;
     display: none;
     color: black;
-    background: white;
+    background: #3498DB;
 }
 
 #projects {
@@ -53,6 +54,8 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     display: none;
+    background: silver;
+    color: black;
 }
 
 #contact {
@@ -61,8 +64,25 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     display: none;
-    color: orange;
-    background: green;
+    color: black;
+    background: white;
+}
+#logos {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10%;
+}
+.logos img{
+    display: inline-block;
+    height: 150px;
+}
+
+#email {
+    text-align: center
+}
+
+.headers {
+    text-align: center;
 }
 
 #header {
@@ -74,6 +94,14 @@ body {
     height: 5%;
     font-size: 8px;
 }
+
+.nav-links {
+    display: inline-block;
+    margin-left: 30%;
+    float: right;
+
+}
+
 
 .circle {
     border-radius: 50%;

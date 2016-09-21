@@ -17,6 +17,12 @@
                         <div class="circle red-circle">x</div>
                         <div class="circle yellow-circle">-</div>
                         <div class="circle green-circle"><></div>
+                        <div class="nav-links">
+                            <a class="links" id="intro-reroute-btn" href="#intro">Intro Screen</a>
+                            <a class="links" id="about-me-reroute-btn" href="#about-me">About Me</a>
+                            <a class="links" id="projects-reroute-btn" href="#projects">My Projects</a>
+                            <a class="links" id="contact-reroute-btn" href="#contact">Contact Me</a>
+                        </div>
                     </div>
                     <div id="body">
                     
@@ -37,7 +43,9 @@
                                     <img src="static/img/profile-pic.png"/>
                                 </div>
                                 <div class="col-xs-9" id="about-me-speech">
-                                    <h1>Hello There!</h1>
+                                    <div class="headers">
+                                        <h1>Hello There!</h1>
+                                    </div>
                                     <ul>
 
                                         <li>I am so excited you're here! I am Taraneh but I often go by Tara for short.</li>
@@ -60,14 +68,26 @@
 
                                         <li>Being a software engineer is pretty awesome</li>
 
-
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div id="projects" class="sections">project time</div>
+                        <div id="projects" class="sections">
+                            <div class="headers">
+                                <h1>My Projects</h1>
+                            </div>
+                        </div>
                         <div id="contact" class="sections">
-                            <h1>Say Hi Or Keep in Contact</h1>
+                            <div class="headers">
+                                <h1>Say Hi Or Keep in Contact</h1>
+                            </div>
+                            <div id="logos" class="logos">
+                                <a href="https://github.com/tarzioo"><img src="static/img/github.png"/></a>
+                                <a href="https://www.linkedin.com/in/ttayaran"><img src="static/img/linkedin.png"/></a>
+                                <a href="https://www.instagram.com/tarzioo/"><img src="static/img/instagram.png"/></a>
+                                <a href="https://twitter.com/tarzioo"><img src="static/img/twitter.png"/></a>
+                            </div>
+                            <div id="email"><h3>ttayaran@gmail.com</h3></div>
                         </div>
                     </div>                         
                 </div>
@@ -122,7 +142,7 @@
                         <div class="keys row-three"><p>} ]</p></div>
                         <div class="keys row-three"><p>\ |</p></div>
 
-                        <div class="keys row-four large-key"><p>caps lock</p></div>
+                        <div class="keys row-four large-key"><p><a id="project-btn" href="#projects">Projects</a></p></div>
                         <div class="keys row-four"><p>A</p></div>
                         <div class="keys row-four"><p>S</p></div>
                         <div class="keys row-four"><p>D</p></div>
