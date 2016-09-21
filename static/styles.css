@@ -3,8 +3,9 @@ body {
    font-family: 'Baloo Tamma', cursive;
 }
 
+
 #full-screen {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #333333;
     height: 340px;
     width: 645px;
     border-style: solid;
@@ -44,8 +45,18 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     display: none;
-    color: black;
-    background: rgba(52, 152, 219, 1);
+    color: white;
+    background: #333333;
+}
+
+#about-me img {
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+#about-me li {
+    font-family: 'Open Sans', sans-serif;
 }
 
 #projects {
@@ -54,8 +65,8 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     display: none;
-    background: silver;
-    color: black;
+    background: #333333;
+    color: white;
 }
 
 #project-table {
@@ -72,13 +83,14 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     display: none;
-    color: black;
-    background: white;
+    color: white;
+    background: #333333;
 }
 #logos {
     margin: 0 auto;
     text-align: center;
     padding: 10%;
+    background-color: rgba(255, 255, 255, 1);
 }
 .logos img{
     display: inline-block;
@@ -91,6 +103,7 @@ body {
 
 .headers {
     text-align: center;
+    background-color: #6AC4FB;
 }
 
 #header {
@@ -98,7 +111,7 @@ body {
 }
 
 #toolbar {
-    background-color: #F5F5F5;
+    background-color: #F3FFFF;
     height: 5%;
     font-size: 8px;
 }
