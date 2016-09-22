@@ -57,6 +57,7 @@ body {
 
 #about-me li {
     font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
 }
 
 #profile-pic img {
@@ -236,7 +237,12 @@ box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);*/
 }
 
 .keyboard-link:hover { 
-    background-color: green; 
+    background-color: lime;
+
+}
+
+.keyboard-link:hover a {
+    color: black;
 }
 
 .keyboard-link a {
@@ -381,6 +387,7 @@ box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);*/
   animation-fill-mode: forwards;
 }
 
+
 @keyframes type {
   from {
     width: 0;
@@ -393,12 +400,64 @@ box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);*/
   }
 }
 
-span {
+#cursor-1 {
   animation: blink 1s infinite;
   color: lime; 
   font-family: "Courier";
   font-size: 20px;
   font-weight: bold;
+}
+
+#cursor-2 {
+  animation: blink 1s infinite;
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+}
+
+#about-me-terminal {
+    display: none;
+    font-family: "Courier";
+    width: 50em;
+    white-space: nowrap;
+    overflow: hidden;
+    color: lime; 
+    font-size: 20px;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
+
+}
+
+#project-terminal {
+    display: none;
+    /*.css-typing p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type3 5s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
+
+}
+
+#contact-terminal {
+    display: none;
+    /*.css-typing p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type3 5s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
+
 }
 
 @keyframes blink{
@@ -475,16 +534,6 @@ span {
   100% {
     opacity: 1;
   }
-}
-
-
-.buttonlink{
-    border-color:black;
-    text-decoration:none;
-}
-.buttonlink:hover{
-    border-color: black;
-    color:white;
 }
 
 

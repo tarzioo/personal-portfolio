@@ -1,8 +1,16 @@
 "use strict";
 
 $('#about-me-btn').click(function() {
-    console.log("entered function");
-  $('#about-me').show('slow', function() {
+    console.log("entered function"); 
+
+    // document.getElementById("cursor-1").style.display = 'none';
+    // document.getElementById("cursor-2").style.display = '';
+    
+    // setTimeout(function(){
+
+        
+    
+    $('#about-me').show('slow', function() {
     document.getElementById("intro").style.display = 'none';
     document.getElementById("keyboard").style.display = 'none';
     document.getElementById("keyboard-bottom").style.display = 'none';
@@ -11,6 +19,10 @@ $('#about-me-btn').click(function() {
     document.getElementById("toolbar").style.fontSize = '15px';
 
   });
+
+// }, 5000);
+
+  
 });
 
 $('#contact-btn').click(function() {
