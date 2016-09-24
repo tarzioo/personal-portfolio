@@ -74,7 +74,7 @@ body {
 #projects {
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
+  /*  overflow-y: hidden;*/
     overflow-x: hidden;
     display: none;
     background: #333333;
