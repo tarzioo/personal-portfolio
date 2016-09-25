@@ -49,6 +49,14 @@ body {
     background: #333333;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 #about-me img {
     height: 200px;
     float: left;
@@ -79,10 +87,19 @@ body {
     display: none;
     background: #333333;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project-font {
+    font-family: 'Baloo Tamma', cursive;
 }
 
 #project-table {
    text-align: center;
+}
+
+#project-table li {
+    padding: 0;
 }
 
 .project-photo img {
