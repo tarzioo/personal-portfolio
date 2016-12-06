@@ -2,7 +2,7 @@
 # Taraneh BigBow's Portfolio
 
 I made a portfolio to show a little more background on me and what projects I have completed.
-I used HTML/CSS and some JS to create this. It is deployed on Heroku at [My Portfolio](https://github.com/tarzioo/personal-portfolio)
+I used HTML/CSS and some JS to create this. It is deployed on Heroku at [My Portfolio](taras-portfolio.herokuapp.com)
 
 ![terminal](static/img/terminal.png)
 
@@ -10,4 +10,4 @@ I used HTML/CSS and some JS to create this. It is deployed on Heroku at [My Port
 
 ![projects](static/img/projects.png)
 
-![contactme](static/img/contactme/png)
+![contactme](static/img/contactme.png)
