@@ -1,4 +1,13 @@
 
-# Portfolio
+# Taraneh BigBow's Portfolio
 
-I made a portfolio to show a little more baackground on me and what projects I have completed.
+I made a portfolio to show a little more background on me and what projects I have completed.
+I used HTML/CSS and some JS to create this. It is deployed on Heroku at [My Portfolio](https://github.com/tarzioo/personal-portfolio)
+
+![terminal](static/img/terminal.png)
+
+![aboutme](static/img/aboutme.png)
+
+![projects](static/img/projects.png)
+
+![contactme](static/img/contactme/png)
